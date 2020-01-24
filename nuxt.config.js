@@ -29,7 +29,9 @@ export default {
   ** Plugins to load before mounting the App
   ** Doc: https://nuxtjs.org/guide/plugins
   */
-  plugins: [],
+  plugins: [
+    '@/plugins/composition-api'
+  ],
 
   buildModules: [
     '@nuxt/typescript-build',
