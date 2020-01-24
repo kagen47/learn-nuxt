@@ -31,6 +31,10 @@ export default {
   */
   plugins: [],
 
+  buildModules: [
+    '@nuxt/typescript-build',
+  ],
+
   /*
   ** Nuxt.js modules
   ** Doc: https://nuxtjs.org/guide/modules

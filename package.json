@@ -15,5 +15,8 @@
     "@nuxt/http": "^0.3.0",
     "nuxt": "^2.5.1",
     "reqlim": "^0.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.5.6"
   }
 }
